@@ -1,14 +1,20 @@
 [
     {
-    "content":"Последний раз видели на Бакунина 115",
-    "header":"Кот Кузя",
-    "email":"kuzya@ya.ru",
-    "img":"cat.png"
+        "content": "Последний раз видели на Бакунина 115",
+        "header": "Кот Кузя",
+        "email": "kuzya@ya.ru",
+        "img": "cat.png",
+        "name": "Кузя",
+        "breed": "Дворовая",
+        "age": 5
     },
     {
-    "content":"Последний раз видели около шаурмячной",
-    "header":"Собака Чара",
-    "email":"chara@ya.ru",
-    "img":"chara.jpg"
+        "content": "Последний раз видели около шаурмячной",
+        "header": "Собака Чара",
+        "email": "chara@ya.ru",
+        "img": "chara.jpg",
+        "name": "Чара",
+        "breed": "Персидский",
+        "age": 2
     }
 ]

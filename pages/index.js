@@ -64,7 +64,7 @@ function Animal(props){
 export default function Home() {
   const [animals,setAnimals] = React.useState([]);
   React.useEffect(()=>{
-    fetch('/animals.json').then(data=>data.json()).then(data=>setAnimals(data));
+    fetch('/api/getAnimals').then(data=>data.json()).then(data=>setAnimals(data));
   },[]);
   React.useEffect(()=>{
     let user = localStorage.getItem('user');
@@ -97,6 +97,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <button onClick={logout}>logout</button>
+        <button onClick={() => window.location.href='/search'}>Поиск животных</button>
         <h1>Petto</h1>
         <AwesomeSlider style={{ "--slider-height-percentage": "100%" }}>
           {
